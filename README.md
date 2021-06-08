@@ -1,7 +1,8 @@
 # esp32cam-timelaps-php-gallery
 esp32cam arduino and php-based scripts for cloud 3d-printing timelapses, may create animated gif or video-file from images, recieved at esp32cam on trigger (layer change) or timeout.
 
-![assembly](https://github.com/whoim2/esp32cam-timelaps-php-gallery/raw/main/Screenshot_2.png)
+![esp32cam](https://github.com/whoim2/esp32cam-timelaps-php-gallery/raw/main/Screenshot_2.png)
+![esp32cam](https://github.com/whoim2/esp32cam-timelaps-php-gallery/raw/main/Screenshot_5.png)
 
 Based on arduino code from https://github.com/robotzero1/esp32cam-timelapse and animated gif php library from https://github.com/lunakid/AnimGif
 
@@ -9,10 +10,10 @@ im use esp32cam from Aliexpress: https://aliexpress.ru/item/1005002035573150.htm
 
 example of work GIF: https://yadi.sk/i/rwDl-g6lLueByA
 
-video mpeg: https://youtu.be/wQOmJVJ83b4
+video mov: https://youtu.be/k5FLd7WKuOI mpeg: https://youtu.be/wQOmJVJ83b4
 
 
-__Example, pin mapping and z-layer-change gcode for RRF on SKR1.3:__
+__Example, pin mapping and z-layer-change gcode for RRF (https://github.com/gloomyandy/RepRapFirmware) on SKR1.3:__
 
 __config.g:__
 ```
